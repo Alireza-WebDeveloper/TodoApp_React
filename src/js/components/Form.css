@@ -1,0 +1,23 @@
+#input-Form {
+  font-size: 1.6rem;
+  font-family: GildaDisplay;
+  font-weight: 600;
+}
+
+#input-Form::placeholder {
+  text-transform: capitalize;
+  color: var(--color2);
+}
+
+#btn-Add {
+  background-color: var(--color2);
+}
+
+#btn-Add .icon-Add {
+  font-size: 1.7rem;
+  color: var(--color1);
+}
+
+#btn-Add:hover .icon-Add {
+  color: var(--color3);
+}

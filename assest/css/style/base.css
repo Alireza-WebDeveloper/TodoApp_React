@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg1: skyblue;
+  --color1: white;
+  --color2: black;
+  --color3: red;
+  --color4: orange;
+}
+
+@font-face {
+  font-family: AlfaSlabOne;
+  src: url(/assest/css/font/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: GildaDisplay;
+  src: url(/assest/css/font/Gilda_Display/GildaDisplay-Regular.ttf);
+}
+
+.container-fluid {
+  position: relative;
+  height: 100vh;
+  background-color: var(--bg1);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0.2rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--color2);
+  border-radius: 0.2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
